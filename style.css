@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Allerta", "Abel";
+}
+
+#navbarMonstera {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#navFirst {
+    width: 100px;
+}
+
+#navMid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+
+#navMid h4 {
+    margin: 25px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#navMid div:nth-child(1) {
+    text-decoration: underline;
+}
+
+#navEnd {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navEnd img {
+    margin: 10px;
+}
+
+
+#midWhole {
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 40px;
+}
+
+#monstera {
+    font-weight: 600;
+    font-size: 90px;
+    font-family: "Allerta";
+}
+
+#midWholePart11 li {
+    font-size: 20px;
+    font-family: "Abel";
+}
+
+#midWholePart121 h1 {
+    position: relative;
+    top: 80px;
+    left: 4px;
+    background-color: #466d50;
+    color: #fff;
+    font-size: 23px;
+    height: 35px;
+    font-weight: 100;
+    width: 170px;
+    padding: 5px;
+    border-radius: 45px;
+    text-align: center;
+
+}
+
+#midWholePart122 img {
+    position: relative;
+    left: 159px;
+    top: 47px;
+    width: 11px;
+
+}
+
+#midWholePart13 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+
+}
+
+.midWholePart13Parts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 12px;
+}
+
+#feeding {
+    height: 55px;
+    margin-right: 10px;
+}
+
+#light {
+    height: 40px;
+    margin-right: 10px;
+}
+
+#care {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.midWholePart13Parts h4 {
+    font-size: 15px;
+
+}
+
+.text {
+    font-size: 10px;
+    width: 150px;
+}
+
+#imgMain {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
